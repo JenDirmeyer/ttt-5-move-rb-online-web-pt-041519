@@ -15,5 +15,5 @@ end
 
 def move(board_array, index, char = "X")
   board_array[index] = char
-  binding.pry
-end  
+end 
+
