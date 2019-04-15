@@ -14,6 +14,6 @@ def input_to_index(move)
 end
 
 def move(board_array, index, char = "X")
-  board_array
+  board_array[index] = char
   binding.pry
 end  
