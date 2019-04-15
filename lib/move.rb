@@ -9,8 +9,6 @@ end
 
 def input_to_index(move)
   move = move.to_i - 1
-  #move = move - 1
-  #move
 end
 
 def move(board_array, index, char = "X")
