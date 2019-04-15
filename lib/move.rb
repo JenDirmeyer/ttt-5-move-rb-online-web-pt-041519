@@ -9,4 +9,6 @@ end
 def input_to_index(move)
   move = move.to_i
   move = move - 1
+  move
 end
+
