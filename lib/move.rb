@@ -1,3 +1,4 @@
+require 'pry'
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -13,5 +14,6 @@ def input_to_index(move)
 end
 
 def move(board_array, index, char = "X")
-  
+  board_array
+  binding.pry
 end  
